@@ -762,4 +762,4 @@ class TestHistoricalRate(unittest.TestCase):
 
 [1] Documentation. (n.d.). Retrieved September 9, 2022, from https://www.frankfurter.app/docs/  
 [2] Jacinda. (2013, June 1). Answer to “How do I validate a date string format in python?” Stack Overflow. https://stackoverflow.com/a/16870682
-# currency-converter
+
