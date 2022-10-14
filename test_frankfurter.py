@@ -3,11 +3,6 @@ from frankfurter import Frankfurter
 
 
 class TestUrl(unittest.TestCase):
-    """
-    Class used for testing the url attributes of the Frankfurter class from checks.py
-    """
-
-    # => To be filled by student
 
     def setUp(self) -> None:
         self.frankfurter = Frankfurter()
@@ -32,11 +27,6 @@ class TestUrl(unittest.TestCase):
 
 
 class TestCurrenciesList(unittest.TestCase):
-    """
-    Class used for testing the currencies attribute of the Frankfurter class from checks.py
-    """
-
-    # => To be filled by student
 
     def setUp(self) -> None:
         frankfurter = Frankfurter()

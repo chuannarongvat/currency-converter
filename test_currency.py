@@ -3,11 +3,6 @@ from currency import CurrencyConverter
 
 
 class TestCurrencyConverterInstantiation(unittest.TestCase):
-    """
-    Class used for testing the instantiation of the CurrencyConverter class from currency.py
-    """
-
-    # => To be filled by student
 
     def test_instantiation_from_currency(self):
         expect = "GBP"
@@ -26,11 +21,6 @@ class TestCurrencyConverterInstantiation(unittest.TestCase):
 
 
 class TestCurrencyCheck(unittest.TestCase):
-    """
-    Class used for testing the CurrencyConverter.check_currencies() method from currency.py
-    """
-
-    # => To be filled by student
 
     def test_true_to_false(self):
         with self.assertRaises(SystemExit):
@@ -51,11 +41,6 @@ class TestCurrencyCheck(unittest.TestCase):
 
 
 class TestReverseRate(unittest.TestCase):
-    """
-    Class used for testing the CurrencyConverter.reverse_rate() method from currency.py
-    """
-
-    # => To be filled by student
 
     def test_reverse_rate(self):
         expect = 0.5381
@@ -64,9 +49,6 @@ class TestReverseRate(unittest.TestCase):
 
 
 class TestRoundRate(unittest.TestCase):
-    """
-    Class used for testing the CurrencyConverter.round_rate() method from currency.py
-    """
 
     def test_round_rate_pass(self):
         expect = round(1 / 1.8583, 4)
@@ -80,11 +62,6 @@ class TestRoundRate(unittest.TestCase):
 
 
 class TestHistoricalRate(unittest.TestCase):
-    """
-    Class used for testing the CurrencyConverter.get_historical_rate() method from currency.py
-    """
-
-    # => To be filled by student
 
     def test_historical_rate(self):
         with self.assertRaises(SystemExit):

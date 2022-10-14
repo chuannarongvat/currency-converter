@@ -3,11 +3,7 @@ from checks import check_arguments, check_date
 
 
 class TestCheckArguments(unittest.TestCase):
-    """
-    Class used for testing the check_arguments() function from checks.py
-    """
 
-    # => To be filled by student
     def test_exactly_three_args(self):
         expect = True
         test = check_arguments(("2022-01-01", "GBP", "AUD"))
@@ -23,11 +19,6 @@ class TestCheckArguments(unittest.TestCase):
 
 
 class TestCheckDate(unittest.TestCase):
-    """
-    Class used for testing the check_date() function from checks.py
-    """
-
-    # => To be filled by student
 
     def test_valid_date(self):
         expect = True
