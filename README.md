@@ -1,9 +1,5 @@
 # Building Currency Converter in Python
 
-## Author
-Name: Narongvat Chingpayakmon  
-Student ID: 14229898
-
 
 ## Description
 
