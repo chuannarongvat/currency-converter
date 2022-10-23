@@ -5,7 +5,6 @@ from frankfurter import Frankfurter
 class CurrencyConverter:
 
     def __init__(self, from_currency, to_currency, date):
-        # => To be filled by student
 
         self.from_currency = from_currency
         self.to_currency = to_currency
